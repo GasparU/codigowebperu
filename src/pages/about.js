@@ -2,7 +2,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/Jose_Gaspar.webp";
 import Image from 'next/image';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '@/components/Skills';
@@ -50,18 +50,16 @@ const about = () => {
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Sobre Nosotros</h2>
-                            <p className='font-medium'>- Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients' visions to life.
+                            <p className='font-medium '>- Somos una consultora de desarrollo de <b>páginas web para empresas</b> y profesionales independientes.
+                            Realizamos páginas web con diseño UX/UI para páginas informativas o tiendas de productos online con funcionalidad las 24/7.
+                            Tenemos dos productos:
                             </p>
-                            <p className='my-4 font-medium'>
-                                - I believe that design is about more than just making things look pretty – it's about solving problems and
-                                creating intuitive, enjoyable experiences for users.
+                            <p className='my-4 font-medium '>
+                            <b>1ro.- Servicio de Desarrollo Web</b> con diseño amigable, rápida de implementar y manejo de SEO con wordpress, la CMS más usada del mundo.
                             </p>
-                            <p className='font-medium'>
-                                - Whether I'm working on a website, mobile app, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                            <p className='font-medium  '>
+                            <b> 2do. Servicio de Diseño Web</b> personalizado, en base a código web con lenguajes de programación como React.js, Next.js y 
+                                transformados a código html5, CSS y JavaScript.
                             </p>
                         </div>
                         <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
