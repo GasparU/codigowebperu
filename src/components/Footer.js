@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='flex items-center lg:py-2'>
               Construído por <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>
             &nbsp; <Link href={"https://devdreaming.com"} className='underline underline-offset-1' target='_blank'>José L. Gaspar</Link></div>
-            <Link href={"https://devdreaming.com"} target='_blank' className='underline underline-offset-1'>JG Diseños Web Perú</Link>
+            <Link href={"https://portafolio-jose-gaspar.netlify.app/"} target='_blank' className='underline underline-offset-1'>+ Trabajos de José Gaspar</Link>
         </Layout>
     </footer>
   )

@@ -50,21 +50,21 @@ const about = () => {
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Sobre Nosotros</h2>
-                            <p className='font-medium '>- Somos una consultora de desarrollo de <b>páginas web para empresas</b> y profesionales independientes.
-                            Realizamos páginas web con diseño UX/UI para páginas informativas o tiendas de productos online con funcionalidad las 24/7.
-                            Tenemos dos productos:
+                            <p className='font-medium '>- Somos una <b>Agencia de Marketing Ditital para el desarrollo de páginas web para empresas</b> y profesionales independientes.
+                            Realizamos páginas web con <b>diseño UX/UI</b> para páginas informativas o tiendas de productos online con funcionalidad las 24/7.
+                            Tenemos dos tipos de productos:
                             </p>
                             <p className='my-4 font-medium '>
-                            <b>1ro.- Servicio de Desarrollo Web</b> con diseño amigable, rápida de implementar y manejo de SEO con wordpress, la CMS más usada del mundo.
+                            <b>1ro.- Servicio de Desarrollo Web</b> con diseño amigable, rápida de implementar, administrable y manejo de SEO con wordpress, 
+                            la CMS más usada del mundo.
                             </p>
                             <p className='font-medium  '>
-                            <b> 2do. Servicio de Diseño Web</b> personalizado, en base a código web con lenguajes de programación como React.js, Next.js y 
-                                transformados a código html5, CSS y JavaScript.
+                            <b> 2do. Servicio de Diseño Web</b> personalizado, en base a código web con lenguajes de programación como React.js y Next.js en el FrontEnd.
                             </p>
                         </div>
-                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
+                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-blueskay bg-light p-8 dark:bg-dark dark:border-greenday xl:col-span-4 md:order-1 md:col-span-8'>
                             
-                            <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
+                            <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday' />
                             <Image src={profilePic} alt="Jose Gaspar" className="full h-auto rounded-2xl" 
                             priority 
                             sizes='(max-width: 768px) 100vw, 

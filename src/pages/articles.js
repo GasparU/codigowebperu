@@ -58,7 +58,8 @@ const Article = ({ img, title, date, link }) => {
             whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
             // cambiar el viewport a true para que no haga el efecto cada vez que mueven el scroll en la pagina y con ello ya no se anima el efecto.
             viewport={{ once: false }}
-            className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light
+            className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-blueskay 
+            border-r-4 border-b-4 dark:border-greenday dark:bg-dark dark:text-light
             sm:flex-col
             '>
             <MovingImg title={title} img={img} link={link} />
@@ -69,8 +70,8 @@ const Article = ({ img, title, date, link }) => {
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
     return (
-        <li className='relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light'>
-            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl' />
+        <li className='relative col-span-1 w-full p-4 bg-light border border-solid border-blueskay rounded-2xl dark:bg-dark dark:border-greenday'>
+            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
             <Link href={link} target='_blank'
                 className='w-full inline-block cursor-pointer overflow-hidden rounded-lg'
             >
@@ -104,7 +105,7 @@ const articles = () => {
                 <title>CodeBucks | Articles Page</title>
                 <meta name='description' content="Agregar descripción de SEO de About" />
             </Head>
-            <TransitionEffect/>
+            <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'
             >
                 <Layout className='pt-16'>
@@ -130,43 +131,63 @@ const articles = () => {
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
                     <ul>
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="
+                            Diseño profesional y personalizado                     
+                            "
                             date="March 22,2023"
                             img={"/"}
                             link={article3}
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="Hasta 1 página interna"
                             date="March 22,2023"
                             img={"/"}
                             link={article4}
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="1 Banner diseño de portada estático"
                             date="March 22,2023"
                             img={"/"}
                             link={article5}
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="Adaptable a celulares"
                             date="March 22,2023"
                             img={"/"}
                             link={article3}
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="Formulario de contacto"
                             date="March 22,2023"
                             img={"/"}
                             link={article3}
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="Botones de whatsapp y redes sociales"
                             date="March 22,2023"
                             img={"/"}
                             link={article3}
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                            title="Optimizado para velocidad de carga"
+                            date="March 22,2023"
+                            img={"/"}
+                            link={article3}
+                        />
+                        <Article
+                            title="Integración de imágenes"
+                            date="March 22,2023"
+                            img={"/"}
+                            link={article3}
+                        />
+                        <Article
+                            title="Mapa de ubicación"
+                            date="March 22,2023"
+                            img={"/"}
+                            link={article3}
+                        />
+                        <Article
+                            title="Google analytics"
                             date="March 22,2023"
                             img={"/"}
                             link={article3}
