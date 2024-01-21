@@ -6,9 +6,8 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from '@/components/TransitionEffect'
-// const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -24,9 +23,6 @@ export default function Home() {
         <meta name='keywords' content='Pagina web para empresas, Desarrollo web, Agencia de Marketing Digital, marketing digital
         servicio de desarrollo web, servicio de diseño web, paginas web peru, diseño de paginas web, diseño web peru, diseñador
         de paginas web '/>
-        {/* <meta property="og:title" content="▷ Página web Para Empresas 【  Desarrollo web Perú 】"/>
-        <meta property="og:description" content="Diseñamos páginas web para empresas y profesionales independientes 
-        escríbenos al 907631349."></meta> */}
         <meta name='robots' content='index, follow, all'/>
         <meta name='category' content='desarrollo web, diseño web'/>
         <meta rel='icon' type="image/x-icon" href='imagenes/de/icono/favicon'/>
@@ -62,16 +58,11 @@ export default function Home() {
                 >Brochure <LinkArrow className={"w-6 ml-1"} />
 
                 </Link>
-                <Link href="mailto:politika23@hotmail.com" target='_blanck' className='ml-4 text-lg font-medium capitalize
-                 text-dark underline dark:text-light md:text-base'>Contacto</Link>
               </div>
             </div>
           </div>
         </Layout>
         <HireMe />
-        {/* <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt='Jose Gaspar' className='w-full h-auto' />
-        </div> */}
       </main>
     </>
   )
