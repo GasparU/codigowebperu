@@ -12,18 +12,18 @@ const Article = ({ texto }) => {
             initial={{ y: 200 }}
             whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
             viewport={{ once: false }}
-            className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-blueskay 
+            className='www.codigowebperu.com relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-blueskay 
             border-r-4 border-b-4 dark:border-greenday dark:bg-dark dark:text-light
             sm:flex-col
             '>
             <span
             >
-                <h3 className='capitalize text-xl font-semibold'>
+                <h3 className='www.codigowebperu.com capitalize text-xl font-semibold'>
                     {texto}
                 </h3>
             </span>
-            <div className='ml-4'>
-                <FaCheck className='text-blueskay dark:text-greenday w-8 h-8' />
+            <div className='www.codigowebperu.com ml-4'>
+                <FaCheck className='www.codigowebperu.com text-blueskay dark:text-greenday w-8 h-8' />
             </div>
         </motion.li>
     )
@@ -31,7 +31,7 @@ const Article = ({ texto }) => {
 
 const ServiceLi = ({ info }) => {
     return (
-        <li className='text-lg leading-loose'> {info} </li>
+        <li className='www.codigowebperu.com text-lg leading-loose'> {info} </li>
     )
 }
 
@@ -52,18 +52,18 @@ const articles = () => {
                 <meta itemProp='telephone' content='907631349' />
             </Head>
             <TransitionEffect />
-            <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'
+            <main className='www.codigowebperu.com w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'
             >
-                <Layout className='pt-16 p-8'>
-                    <AnimatedText text={"Nuestros Servicios "} className='mb-16 
+                <Layout className='www.codigowebperu.com pt-16 p-8'>
+                    <AnimatedText text={"Nuestros Servicios "} className='www.codigowebperu.com mb-16 
                     lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl
                     ' />
-                    <ul className='list-disc list-inside leading-loose grid grid-cols-3 2xl:gap-6 gap-6 lg:gap-8 lg:grid-cols-2 md:grid-cols-1 
+                    <ul className='www.codigowebperu.com list-disc list-inside leading-loose grid grid-cols-3 2xl:gap-6 gap-6 lg:gap-8 lg:grid-cols-2 md:grid-cols-1 
                     md:gap-y-16 justify-items-center'>
-                        <div className='relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
+                        <div className='www.codigowebperu.com relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
                          border-blueskay rounded-2xl dark:bg-dark dark:border-greenday '>
-                            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
-                            <h2 className='text-2xl leading-loose font-bold text-blueskay dark:text-greenday text-center'>Plan Independiente</h2>
+                            <div className='www.codigowebperu.com absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
+                            <h2 className='www.codigowebperu.com text-2xl leading-loose font-bold text-blueskay dark:text-greenday text-center'>Plan Independiente</h2>
                             <ServiceLi info={'1 a 3 Páginas Internas con 4 a 6 secciones'} />
                             <ServiceLi info={'01 año de Dominio.Com + Hosting'} />
                             <ServiceLi info={'Whatsapp y Redes Sociales'} />
@@ -77,10 +77,10 @@ const articles = () => {
                             <ServiceLi info={'Instalación, confi guración y capacitación'} />
 
                         </div>
-                        <div className='relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
+                        <div className='www.codigowebperu.com relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
                          border-blueskay rounded-2xl dark:bg-dark dark:border-greenday'>
-                            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
-                            <h2 className='text-2xl leading-loose font-bold text-blueskay dark:text-greenday text-center'>Plan Profesional</h2>
+                            <div className='www.codigowebperu.com absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
+                            <h2 className='www.codigowebperu.com text-2xl leading-loose font-bold text-blueskay dark:text-greenday text-center'>Plan Profesional</h2>
                             <ServiceLi info={'4 a 5 Páginas Internas con 4 a 6 secciones'} />
                             <ServiceLi info={'01 año de Dominio.Com + Hosting'} />
                             <ServiceLi info={'Whatsapp y Redes Sociale'} />
@@ -94,10 +94,10 @@ const articles = () => {
                             <ServiceLi info={'Panel Administrable'} />
                             <ServiceLi info={'Google Analytics'} />
                         </div>
-                        <div className='relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
+                        <div className='www.codigowebperu.com relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
                          border-blueskay rounded-2xl dark:bg-dark dark:border-greenday'>
-                            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
-                            <h2 className='text-2xl leading-loose max-w-lg font-bold text-blueskay dark:text-greenday text-center'>Plan Mype (Ecommerce)</h2>
+                            <div className='www.codigowebperu.com absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
+                            <h2 className='www.codigowebperu.com text-2xl leading-loose max-w-lg font-bold text-blueskay dark:text-greenday text-center'>Plan Mype (Ecommerce)</h2>
                             <ServiceLi info={'6 a Más Páginas Internas'} />
                             <ServiceLi info={'Google Analytics'} />
                             <ServiceLi info={'Página de Productos por categoría'} />
@@ -121,10 +121,10 @@ const articles = () => {
                             <ServiceLi info={'Google Mi Negocio'} />
                             <ServiceLi info={'E.Commerce'} />
                         </div>
-                        <div className='relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
+                        <div className='www.codigowebperu.com relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
                          border-blueskay rounded-2xl dark:bg-dark dark:border-greenday'>
-                            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
-                            <h2 className='text-2xl leading-loose max-w-lg font-bold text-blueskay dark:text-greenday text-center'>Aula Virtual (Academia Online)</h2>
+                            <div className='www.codigowebperu.com absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
+                            <h2 className='www.codigowebperu.com text-2xl leading-loose max-w-lg font-bold text-blueskay dark:text-greenday text-center'>Aula Virtual (Academia Online)</h2>
                             <ServiceLi info={'Creación de Subdominio'} />
                             <ServiceLi info={'Instalación Wordpress Academia'} />
                             <ServiceLi info={'Configuración y capacitación'} />
@@ -146,10 +146,10 @@ const articles = () => {
                             <ServiceLi info={'Certificado de Seguridad'} />
                             <ServiceLi info={'Panel Administrable'} />
                         </div>
-                        <div className=' relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
+                        <div className='www.codigowebperu.com relative col-span-1 mt-8 max-w-md p-4 bg-light border border-solid
                          border-blueskay rounded-2xl dark:bg-dark dark:border-greenday'>
-                            <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
-                            <h2 className='text-2xl leading-loose max-w-lg font-bold text-blueskay dark:text-greenday text-center'>Plan Código</h2>
+                            <div className='www.codigowebperu.com absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-blueskay dark:bg-greenday rounded-br-3xl ' />
+                            <h2 className='www.codigowebperu.com text-2xl leading-loose max-w-lg font-bold text-blueskay dark:text-greenday text-center'>Plan Código</h2>
                             <ServiceLi info={'Páginas Internas a pedido'} />
                             <ServiceLi info={'Hecho con Código Puro (No Wordpress)'} />
                             <ServiceLi info={'01 año de Dominio.Com + Hosting'} />
@@ -174,73 +174,73 @@ const articles = () => {
                             <ServiceLi info={'Google Mi Negocio'} />
                         </div>
                     </ul>
-                    <div className="flex flex-wrap gap-8 sx:hidden justify-center 2xl:flex-wrap mt-20">
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                    <div className="www.codigowebperu.com flex flex-wrap gap-8 sx:hidden justify-center 2xl:flex-wrap mt-20">
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaGlobe className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Dominio Web</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Registro de Dominio web gratis el primer año</p>
+                            <FaGlobe className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Dominio Web</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Registro de Dominio web gratis el primer año</p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaDatabase className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Hosting</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Hosting SSD gratuito el primer año</p>
+                            <FaDatabase className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Hosting</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Hosting SSD gratuito el primer año</p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaCode className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Web con Código</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Tu Página informativa hecha con código web puro, no wordpress!</p>
+                            <FaCode className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Web con Código</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Tu Página informativa hecha con código web puro, no wordpress!</p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaChalkboard className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Responsive</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Diseño adaptado a Pc, Tablet o Celulares</p>
+                            <FaChalkboard className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Responsive</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Diseño adaptado a Pc, Tablet o Celulares</p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaLaptopCode className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Posicionamiento Seo</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Rendimiento SEO garantizado en PageSpeed Insigth y GTmetrix</p>
+                            <FaLaptopCode className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Posicionamiento Seo</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Rendimiento SEO garantizado en PageSpeed Insigth y GTmetrix</p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaStar className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Valoraciones</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Aseguramos valorizaciones positivas rápidas</p>
+                            <FaStar className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Valoraciones</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Aseguramos valorizaciones positivas rápidas</p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaCcVisa className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Pagos</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Pasarela de pagos por Bancos o Apps como Yape o Plin </p>
+                            <FaCcVisa className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Pagos</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Pasarela de pagos por Bancos o Apps como Yape o Plin </p>
                             </div>
                         </div>
-                        <div className='w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
+                        <div className='www.codigowebperu.com w-60 border dark:border-4 border-solid border-blueskay dark:border-greenday py-4 min-h-min
                          bg-white rounded-2xl hover:scale-110 duration-300'>
-                            <FaFacebook className='w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
-                            <div className='mx-6'>
-                                <h2 className='flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Redes Sociales</h2>
-                                <p className='flex justify-center m-auto w-40 text-center dark:text-black'>Integración con tus Redes Sociales</p>
+                            <FaFacebook className='www.codigowebperu.com w-20 h-20 text-blueskay m-auto pb-4 dark:text-greenday' />
+                            <div className='www.codigowebperu.com mx-6'>
+                                <h2 className='www.codigowebperu.com flex justify-center text-2xl text-center h-20 items-center dark:text-black'>Redes Sociales</h2>
+                                <p className='www.codigowebperu.com flex justify-center m-auto w-40 text-center dark:text-black'>Integración con tus Redes Sociales</p>
                             </div>
                         </div>
                     </div>
-                    <h2 className='font-bold text-4xl w-full text-center my-16 mt-32 text-blueskay dark:text-greenday'>Ventajas de Nuestros Servicios</h2>
+                    <h2 className='www.codigowebperu.com www.codigowebperu.com font-bold text-4xl w-full text-center my-16 mt-32 text-blueskay dark:text-greenday'>Ventajas de Nuestros Servicios</h2>
                     <ul>
                         <Article texto="Realizamos un Diseño profesional y personalizado para cada cliente." />
                         <Article texto="No usamos FrontPage o Expression Web." />
