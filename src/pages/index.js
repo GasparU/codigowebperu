@@ -45,11 +45,15 @@ export default function Home() {
               <AnimatedText text={'Desarrollo de Páginas web a Medida'} className='www.codigowebperu.com !text-6xl !text-left 
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl
               '/>
-              <p className='www.codigowebperu.com my-4 text-base font-medium md:text-sm sm:text-xs'>Somos una Agencia de Marketing Digital especializada
+              <p className='www.codigowebperu.com my-4 text-base font-medium md:text-sm sm:text-lg lg:text-xl'>Somos una Agencia de Marketing Digital especializada
                 en <b>desarrollo de páginas web</b> y <b>Gestión de contenidos</b> para Redes Sociales.
                 Nuestro servicio de desarrollo web maneja código propio o diseños establecidos, que ayuda al manejo del branding de su empresa y
                 nuestro servicio de SEO para posicionamiento de su página web.</p>
               <div className='www.codigowebperu.com flex xs:flex-col md:flex-col lg:flex-col flex-row items-center self-start mt-2 lg:self-center '>
+                <div className='flex'>
+                  <p className='sm:text-lg lg:text-xl'><b>Correo:</b></p>
+                  <p className='ml-6 sm:text-lg lg:text-xl'>politika23@hotmail.com</p>
+                </div>
               </div>
             </div>
           </div>
